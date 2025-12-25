@@ -27,7 +27,7 @@ function Home() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white nav-hover px-2" to="#">
+                <Link className="nav-link text-white nav-hover px-2" to="admin-login">
                   Admin Portal
                 </Link>
               </li>

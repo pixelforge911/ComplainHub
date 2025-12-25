@@ -253,8 +253,6 @@ function RaiseComplaint() {
                   Latitude: {location.lat}
                   <br />
                   Longitude: {location.lng}
-                  <br />
-                  Accuracy: ±{Math.round(82)} meters
                 </small>
               </div>
             )}

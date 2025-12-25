@@ -1,25 +1,11 @@
-// import { useState } from 'react'
-// import VroLogin from './pages/VroLogin.jsx';
-// import AdminDashboard from './pages/AdminDashboard.jsx'
-// import './App.css'
-
-// function App() {
-//   const[isLoggedin,setIsLoggedIn] = useState(false);
-//   return(
-//     <>
-//     {isLoggedin ? (<AdminDashboard/>)  : (<VroLogin onLogin={()=>
-//     setIsLoggedIn(true)}/>)}
-//     </>
-//   )
-// }
-
-// export default App
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import District from "./components/Home/District";
 import Mobile from "./components/Home/Mobile";
 import History from "./components/Home/ComplaintsHistory";
 import RaiseComplaint from "./components/Complaints/RaiseComplaint";
+import VroLogin from "./pages/VroLogin";
+import AdminDashboard from "./pages/AdminDashboard";
 
 
 
@@ -32,6 +18,8 @@ function App() {
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/history" element={<History/>}/>
         <Route path="/raise-complaint" element={<RaiseComplaint />} />
+        <Route path="/admin-login" element={<VroLogin/>}/>
+        <Route path="/admin-dashboard" element={<AdminDashboard/>}/>
       </Route>
       
     </Routes>
