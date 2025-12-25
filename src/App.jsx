@@ -3,6 +3,12 @@ import Home from "./pages/Home";
 import District from "./components/Home/District";
 import Mobile from "./components/Home/Mobile";
 import History from "./components/Home/ComplaintsHistory";
+import RaiseComplaint from "./components/Complaints/RaiseComplaint";
+import VroLogin from "./pages/VroLogin";
+import AdminDashboard from "./pages/AdminDashboard";
+
+
+
 
 function App() {
   return (
@@ -11,7 +17,11 @@ function App() {
         <Route path="/" element={<District />} />
         <Route path="/mobile" element={<Mobile />} />
         <Route path="/history" element={<History/>}/>
+        <Route path="/raise-complaint" element={<RaiseComplaint />} />
+        <Route path="/admin-login" element={<VroLogin/>}/>
+        <Route path="/admin-dashboard" element={<AdminDashboard/>}/>
       </Route>
+      
     </Routes>
   );
 }

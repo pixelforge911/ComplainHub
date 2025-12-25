@@ -12,7 +12,7 @@ function Home() {
           <nav>
             <ul className="nav gap-2 gap-md-3 m-0">
               <li className="nav-item">
-                <Link className="nav-link text-white nav-hover px-2" to="#">
+                <Link className="nav-link text-white nav-hover px-2" to="/raise-complaint">
                   Raise a Complaint
                 </Link>
               </li>
@@ -27,7 +27,7 @@ function Home() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white nav-hover px-2" to="#">
+                <Link className="nav-link text-white nav-hover px-2" to="admin-login">
                   Admin Portal
                 </Link>
               </li>
