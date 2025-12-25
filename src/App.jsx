@@ -1,16 +1,6 @@
-import { useState } from 'react'
-import VroLogin from './pages/VroLogin.jsx';
-import AdminDashboard from './pages/AdminDashboard.jsx'
-import './App.css'
-
+import All from "./components/all"
 function App() {
-  const[isLoggedin,setIsLoggedIn] = useState(false);
-  return(
-    <>
-    {isLoggedin ? (<AdminDashboard/>)  : (<VroLogin onLogin={()=>
-    setIsLoggedIn(true)}/>)}
-    </>
-  )
+  return(<></>)
 }
 
 export default App

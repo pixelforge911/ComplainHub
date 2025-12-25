@@ -1,0 +1,12 @@
+/* index.css – keep it minimal */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+}
