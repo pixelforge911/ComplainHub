@@ -5,6 +5,9 @@ import { Link, useOutletContext } from "react-router-dom";
 import pic1 from "../../assets/picture-1.png"; 
 import pic2 from "../../assets/picture-2.png";
 import pic3 from "../../assets/picture-3.png";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../../styles/Home.css";
 
 function District() {
   const [currentSlide, setCurrentSlide] = useState(0);
